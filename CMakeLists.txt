@@ -15,8 +15,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-option(LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" ON)
-option(LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" ON)
+option(LEVELDB_BUILD_TESTS "Build LevelDB's unit tests" OFF)
+option(LEVELDB_BUILD_BENCHMARKS "Build LevelDB's benchmarks" OFF)
 option(LEVELDB_INSTALL "Install LevelDB's header and library" ON)
 
 include(TestBigEndian)
